@@ -1,0 +1,176 @@
+* {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav span {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+   
+}
+
+nav li {
+
+    padding: 10px;
+    list-style: none;
+}
+
+.logo {
+    width: 121px;
+    height: 61px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+/* banner style */
+
+.banner{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url("../images/developer.png") ;
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.banner .btn-primary{
+    margin-top: 20px;
+}
+
+/* about section */
+
+.about{
+    margin: 50px 150px;
+    padding: 50px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+}
+
+.about h1{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.about p{
+    display: flex;
+    text-align: center;
+}
+
+.info{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-info h4{
+display: flex;
+justify-content: center;
+}
+
+/* what i do  */
+.what{
+    margin: 50px 250px;
+}
+.what h3{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.what p{
+    text-align: center;
+}
+
+/* skill */
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.skill-info{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-info img{
+    margin: 10px 0px;
+}
+
+.skill-info p{
+    font-size: 14px;
+}
+
+/* Resume */
+.resume{
+    display: flex;
+    margin: 50px 150px;
+}
+
+.edu{
+padding: 0 50px;
+}
+
+.exp{
+    padding: 0 50px;
+}
+
+.resume h5{
+    padding: 10px 0px;
+}
+
+.resume hr{
+    margin: 10px 0px;
+}
+
+.r-title{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-resume{
+    display: flex;
+    justify-content: center;
+}
+.resume-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer input{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
